@@ -1,0 +1,21 @@
+D:/Programming 1/Yates_Phillip_Lab1/Lab 1/Lab 1/obj/Debug/Lab 1.csprojAssemblyReference.cache
+D:/Programming 1/Yates_Phillip_Lab1/Lab 1/Lab 1/obj/Debug/Lab 1.csproj.CoreCompileInputs.cache
+D:/Programming 1/Yates_Phillip_Lab1/Lab 1/Lab 1/bin/Debug/Lab 1.exe.config
+D:/Programming 1/Yates_Phillip_Lab1/Lab 1/Lab 1/bin/Debug/Lab 1.exe
+D:/Programming 1/Yates_Phillip_Lab1/Lab 1/Lab 1/bin/Debug/Lab 1.pdb
+D:/Programming 1/Yates_Phillip_Lab1/Lab 1/Lab 1/obj/Debug/Lab 1.exe
+D:/Programming 1/Yates_Phillip_Lab1/Lab 1/Lab 1/obj/Debug/Lab 1.pdb
+/Users/yates/Downloads/Lab 1-2/Lab 1/bin/Debug/Lab 1.exe.config
+/Users/yates/Downloads/Lab 1-2/Lab 1/bin/Debug/Lab 1.exe
+/Users/yates/Downloads/Lab 1-2/Lab 1/bin/Debug/Lab 1.pdb
+/Users/yates/Downloads/Lab 1-2/Lab 1/obj/Debug/Lab 1.csproj.AssemblyReference.cache
+/Users/yates/Downloads/Lab 1-2/Lab 1/obj/Debug/Lab 1.csproj.CoreCompileInputs.cache
+/Users/yates/Downloads/Lab 1-2/Lab 1/obj/Debug/Lab 1.exe
+/Users/yates/Downloads/Lab 1-2/Lab 1/obj/Debug/Lab 1.pdb
+/Users/ravenmargret/Downloads/Archive/Lab 1/bin/Debug/Lab 1.exe.config
+/Users/ravenmargret/Downloads/Archive/Lab 1/bin/Debug/Lab 1.exe
+/Users/ravenmargret/Downloads/Archive/Lab 1/bin/Debug/Lab 1.pdb
+/Users/ravenmargret/Downloads/Archive/Lab 1/obj/Debug/Lab 1.csproj.AssemblyReference.cache
+/Users/ravenmargret/Downloads/Archive/Lab 1/obj/Debug/Lab 1.csproj.CoreCompileInputs.cache
+/Users/ravenmargret/Downloads/Archive/Lab 1/obj/Debug/Lab 1.exe
+/Users/ravenmargret/Downloads/Archive/Lab 1/obj/Debug/Lab 1.pdb

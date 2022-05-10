@@ -1,0 +1,26 @@
+C:/Users/marty/Documents/PG1/Working/Debug Exercise/Debug Exercise/bin/Debug/Debug Exercise.exe.config
+C:/Users/marty/Documents/PG1/Working/Debug Exercise/Debug Exercise/bin/Debug/Debug Exercise.exe
+C:/Users/marty/Documents/PG1/Working/Debug Exercise/Debug Exercise/bin/Debug/Debug Exercise.pdb
+C:/Users/marty/Documents/PG1/Working/Debug Exercise/Debug Exercise/obj/Debug/Debug Exercise.exe
+C:/Users/marty/Documents/PG1/Working/Debug Exercise/Debug Exercise/obj/Debug/Debug Exercise.pdb
+C:/Users/marty/Documents/PG1/Working/Debug Exercise/Debug Exercise/obj/Debug/Debug Exercise.csprojAssemblyReference.cache
+C:/Users/marty/Documents/PG1/Working/FSO Version/Debug Exercise/Debug Exercise/obj/Debug/Debug Exercise.csproj.CoreCompileInputs.cache
+C:/Users/marty/Documents/PG1/Working/FSO Version/Debug Exercise/Debug Exercise/obj/Debug/Debug Exercise.exe
+C:/Users/marty/Documents/PG1/Working/FSO Version/Debug Exercise/Debug Exercise/obj/Debug/Debug Exercise.pdb
+C:/Users/marty/Documents/PG1/Working/FSO Version/Debug Exercise/Debug Exercise/bin/Debug/Debug Exercise.exe.config
+C:/Users/marty/Documents/PG1/Working/FSO Version/Debug Exercise/Debug Exercise/bin/Debug/Debug Exercise.exe
+C:/Users/marty/Documents/PG1/Working/FSO Version/Debug Exercise/Debug Exercise/bin/Debug/Debug Exercise.pdb
+C:/Users/marty/Documents/PG1/Working/FSO Version/Debug Exercise/Debug Exercise/obj/Debug/Debug Exercise.csprojAssemblyReference.cache
+C:/Users/marty/Documents/PG1/Working/FSO Version/Labs/Debug Exercise/Debug Exercise/bin/Debug/Debug Exercise.exe.config
+C:/Users/marty/Documents/PG1/Working/FSO Version/Labs/Debug Exercise/Debug Exercise/bin/Debug/Debug Exercise.exe
+C:/Users/marty/Documents/PG1/Working/FSO Version/Labs/Debug Exercise/Debug Exercise/bin/Debug/Debug Exercise.pdb
+C:/Users/marty/Documents/PG1/Working/FSO Version/Labs/Debug Exercise/Debug Exercise/obj/Debug/Debug Exercise.csprojAssemblyReference.cache
+C:/Users/marty/Documents/PG1/Working/FSO Version/Labs/Debug Exercise/Debug Exercise/obj/Debug/Debug Exercise.csproj.CoreCompileInputs.cache
+C:/Users/marty/Documents/PG1/Working/FSO Version/Labs/Debug Exercise/Debug Exercise/obj/Debug/Debug Exercise.exe
+C:/Users/marty/Documents/PG1/Working/FSO Version/Labs/Debug Exercise/Debug Exercise/obj/Debug/Debug Exercise.pdb
+/Users/ravenmargret/MobileDevelopment/COP1/Week1/Lab2/Debug Exercise/Debug Exercise/bin/Debug/Debug Exercise.exe.config
+/Users/ravenmargret/MobileDevelopment/COP1/Week1/Lab2/Debug Exercise/Debug Exercise/bin/Debug/Debug Exercise.exe
+/Users/ravenmargret/MobileDevelopment/COP1/Week1/Lab2/Debug Exercise/Debug Exercise/bin/Debug/Debug Exercise.pdb
+/Users/ravenmargret/MobileDevelopment/COP1/Week1/Lab2/Debug Exercise/Debug Exercise/obj/Debug/Debug Exercise.csproj.CoreCompileInputs.cache
+/Users/ravenmargret/MobileDevelopment/COP1/Week1/Lab2/Debug Exercise/Debug Exercise/obj/Debug/Debug Exercise.exe
+/Users/ravenmargret/MobileDevelopment/COP1/Week1/Lab2/Debug Exercise/Debug Exercise/obj/Debug/Debug Exercise.pdb
