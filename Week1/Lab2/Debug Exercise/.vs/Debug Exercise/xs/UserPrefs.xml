@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{A8A9B00A-C7EF-4CBF-BEDF-31F2BCFDF1AB}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Debug Exercise/Support.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Debug Exercise/Program.cs">
     <Files>
-      <File FileName="Debug Exercise/Program.cs" Line="1" Column="1" />
-      <File FileName="Debug Exercise/Support.cs" Line="1" Column="1" />
+      <File FileName="Debug Exercise/Program.cs" Line="60" Column="1" />
+      <File FileName="Debug Exercise/Support.cs" Line="33" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Debug Exercise" expanded="True">
             <Node name="Debug Exercise" expanded="True">
-              <Node name="Support.cs" selected="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -23,7 +23,11 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/ravenmargret/MobileDevelopment/COP1/Week1/Lab2/Debug Exercise/Debug Exercise/Program.cs" relfile="Debug Exercise/Program.cs" line="30" column="13" />
+      <Breakpoint file="/Users/ravenmargret/MobileDevelopment/COP1/Week1/Lab2/Debug Exercise/Debug Exercise/Program.cs" relfile="Debug Exercise/Program.cs" line="28" column="1" />
+      <Breakpoint file="/Users/ravenmargret/MobileDevelopment/COP1/Week1/Lab2/Debug Exercise/Debug Exercise/Program.cs" relfile="Debug Exercise/Program.cs" line="60" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

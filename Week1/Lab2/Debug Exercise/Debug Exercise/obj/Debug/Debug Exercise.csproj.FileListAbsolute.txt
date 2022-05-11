@@ -24,3 +24,4 @@ C:/Users/marty/Documents/PG1/Working/FSO Version/Labs/Debug Exercise/Debug Exerc
 /Users/ravenmargret/MobileDevelopment/COP1/Week1/Lab2/Debug Exercise/Debug Exercise/obj/Debug/Debug Exercise.csproj.CoreCompileInputs.cache
 /Users/ravenmargret/MobileDevelopment/COP1/Week1/Lab2/Debug Exercise/Debug Exercise/obj/Debug/Debug Exercise.exe
 /Users/ravenmargret/MobileDevelopment/COP1/Week1/Lab2/Debug Exercise/Debug Exercise/obj/Debug/Debug Exercise.pdb
+/Users/ravenmargret/MobileDevelopment/COP1/Week1/Lab2/Debug Exercise/Debug Exercise/obj/Debug/Debug Exercise.csproj.AssemblyReference.cache
