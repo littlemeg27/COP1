@@ -17,18 +17,37 @@ namespace FSPG1
         // Test 1 – How many multiples
         // Given three int's, start, end and factor, using a loop, count how 
         // multiples of factor occur between start and end(inclusive)
+
         public static int Test1(int start, int end, int factor)
         {
-            return 0;
+            int factorMultiple = 0;
+
+            for(int i = start; i <= end; i++)
+            {
+                if(i % factor == 0)
+                {
+                    factorMultiple++; 
+                }
+
+            }
+
+            return factorMultiple;
         }
 
         // Test 2 - Factorial
         // Given an int, number, calculate the factorial for number. A factorial 
         // is the result of multiplying all integers between 1 and the target 
         // (number) (so 3 factorial, 3!, is 3 X 2 X 1 = 6)
+
         public static int Test2(int number)
         {
-            return 0;
+            int factorial = 1;
+
+            for (int i = number; i >= 2; i--)
+            {
+                factorial = factorial * i; 
+            }
+            return factorial;
         }
 
         // Test 3 - Raise to a power
@@ -36,9 +55,16 @@ namespace FSPG1
         // exponent. You are not allowed to use Math.Pow to compute the answer – 
         // you must use a loop. Additionally, exponent will be greater than or 
         // equal to 0 (no negative exponents)
+
         public static int Test3(int root, int exponent)
         {
-            return 0;
+            int power = 1;
+
+            for (int i = 0; i < exponent; i++)
+            {
+                power = power * root;
+            }
+            return power;
         }
 
         // Test 4 - Consumable
@@ -53,9 +79,23 @@ namespace FSPG1
         // You may find it necessary to use the Round method from the Math class 
         // to avoid floating-point errors. I'd suggest rounding the results of 
         // each computation to 3 decimal places.
+
         public static int Test4(double onHand, double consume)
         {
-            return 0;
+            int meal = 0;
+
+            while(onHand >= consume)
+            {
+                onHand = Math.Round(onHand - consume, 3);
+
+                meal++;
+
+                if(onHand == 0)
+                {
+                    break;
+                }
+            }
+            return meal;
         }
 
         // Test 5 - Prime number
@@ -64,19 +104,46 @@ namespace FSPG1
         // By definition negative values, 0 and 1 are not prime numbers (2 is 
         // the smallest prime number). If number is prime, return true, 
         // otherwise return false.
+
         public static bool Test5(int number)
         {
-            return false;
+            bool primeNumber = false;
+            int divideNumber = 0;
+
+            for (int i = 1; i <= number; i++)
+            {
+                if (number % i == 0)
+                {
+                    divideNumber++;
+                }
+            }
+
+            if (divideNumber == 2)  
+            {
+                primeNumber = true;
+            }
+
+            return primeNumber;
         }
 
         // Test 6 - Build a string
         // Given a char, starter, and an int, number, create a string the is made
         // up of starter the next number of characters (in order). For example, 
         // if starter is 'A' and number is 5, the string should be ABCDE (the
-        // starting value of A followed by the next 4 letters, in order) 
+        // starting value of A followed by the next 4 letters, in order)
+
         public static string Test6(char starter, int number)
         {
-            return null;
+           
+           string bulidString = "";
+            int count;
+
+            for (count = 0; count < number; count++)
+            {
+                bulidString = bulidString + starter;
+                starter++;
+            }
+                return bulidString;
         }
 
         // Test 7 - Making change
@@ -91,9 +158,43 @@ namespace FSPG1
         // from the Math class to avoid floating-point errors. Since you 
         // are dealing with US currency/coins, I'd suggest rounding the 
         // results of each computation to 2 decimal places.
+
         public static int Test7(double amount)
-        {
-            return 0;
+        { 
+            int coins = 0;
+
+            while (amount > 0)
+            {
+                  if (amount >= .25)
+                  {
+                     amount  = amount -.25;
+                     amount = Math.Round(amount, 2);
+                     coins = coins + 1;
+                  }
+                  if (amount < .25 && amount >= .10)
+                  {
+                     amount = amount - .10;
+                     amount = Math.Round(amount, 2);
+                     coins = coins + 1;
+                  }
+                  if (amount < .10 && amount > .05)
+                  {
+                     amount = amount - .05;
+                     amount = Math.Round(amount, 2);
+                     coins = coins + 1;
+                  }
+                  if (amount < .05 && amount > .00)
+                  {
+                     amount = amount - .01;
+                     amount = Math.Round(amount, 2);
+                     coins = coins + 1;
+                  }
+                  else if (amount == 0)
+                  {
+                     break;
+                  }
+            }
+            return coins;
         }
 
         // Test 8 – Return the multiples
@@ -102,18 +203,33 @@ namespace FSPG1
         // a string (separate each multiple with a single space). For 
         // example, given 5 (factor) and 7 (qty), the resulting string 
         // would be 5 10 15 20 25 30 35
+
         public static string Test8(int factor, int qty)
         {
-            return null;
+            string multiples = "";
+
+            for (int i = qty; i >= 1; i--)
+            {
+                multiples = (qty * factor) + " " + multiples;
+                qty--;
+            }
+            return multiples;
         }
 
         // Test 9 – Sum of values
         // Given two int's start and end, find the sum of all values between 
         // start and end (inclusive). For example, given 11 (start) and 19 
         // (end), the result is 135
+
         public static int Test9(int start, int end)
         {
-            return 0;
+            int values = 0;
+
+            for (int i = start; i <= end; i++)
+            {
+                values = values + i;
+            }
+            return values;
         }
 
         // Test 10 – Sum of values
@@ -125,9 +241,18 @@ namespace FSPG1
         // the sum of those 5 numbers. Return the sum
         // NOTE: You are given the Random object (gener) so you should not 
         // declare/instantiate another Random object
+
         public static int Test10(Random gener, int min, int max, int qty)
         {
-            return 0;
+            int generate = 0;
+            int count;
+
+            for (count = 0; count < qty; count++)
+            {
+                generate = generate + gener.Next(min, max);
+            }
+
+            return generate;
         }
     }
 }

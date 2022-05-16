@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{EAAFF185-979B-4E26-B321-13C08DE9FC04}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FSPG1/Submissions.cs">
+    <Files>
+      <File FileName="FSPG1/Submissions.cs" Line="202" Column="13" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Lab 4A" expanded="True">
+            <Node name="FSPG1" expanded="True">
+              <Node name="Submissions.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.FSPG1 PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

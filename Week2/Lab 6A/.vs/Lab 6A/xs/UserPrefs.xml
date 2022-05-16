@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{A3A7125C-C5EB-4D2A-8696-5DF97C9D0672}|Default">
+  <MonoDevelop.Ide.ItemProperties.Lab_2206A PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab 6A/Submission.cs">
+    <Files>
+      <File FileName="Lab 6A/Submission.cs" Line="180" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Lab 6A" expanded="True">
+            <Node name="Lab 6A" expanded="True">
+              <Node name="Submission.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
