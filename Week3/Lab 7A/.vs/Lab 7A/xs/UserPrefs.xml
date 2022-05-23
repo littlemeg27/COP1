@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{ED540E20-991F-42A2-BDA7-1A2CA8C717D4}|Default">
+  <MonoDevelop.Ide.ItemProperties.Lab_2207A PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab 7A/Codex.cs">
+    <Files>
+      <File FileName="Lab 7A/Submission.cs" Line="56" Column="10" />
+      <File FileName="Lab 7A/Circle.cs" Line="3" Column="20" />
+      <File FileName="Lab 7A/Codex.cs" Line="8" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Lab 7A" expanded="True">
+            <Node name="Lab 7A" expanded="True">
+              <Node name="Codex.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

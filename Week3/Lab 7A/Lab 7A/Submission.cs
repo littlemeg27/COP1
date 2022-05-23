@@ -1,49 +1,74 @@
-﻿using System;
+﻿//COP1
+//Lab 7
+//Brenna Pavlinchak
+
+using System;
 using System.Text;
 using Lab_7A;
+using TextCodec;
 
 namespace FSPG1
 {
     public class Submission
     {
-        public static StringBuilder Test1(string [] names)
+        public static StringBuilder Test1(string [] names) // Test 1
         {
-            return null;
+            StringBuilder namesBulider = new StringBuilder();
+
+            for(int i = 0; i < names.Length; i++)
+            {
+                namesBulider.Append(names[i][0]);
+            }
+
+            return namesBulider;
         }
 
-        public static object Test2(float x, float y, float radius)
+        public static object Test2(float x, float y, float radius) // Test 2 
         {
-            return null;
+            Circle c1 = new Circle(x, y, radius);
+
+            return c1;
         }
 
-        public static object Test3(float x, float y, float radius)
+        public static object Test3(float x, float y, float radius) // Test 3 
         {
-            return null;
+            Circle c1 = new Circle(x, y, radius);
+
+            return c1;
         }
 
-        public static object Test4(float x, float y, float radius)
+        public static object Test4(float x, float y, float radius) // Test 4
         {
-            return null;
+            Circle c1 = new Circle(x, y, radius);
+
+            return c1;
         }
 
-        public static object Test5(float x, float y, float radius)
+        public static object Test5(float x, float y, float radius) // Test 5
         {
-            return null;
+            Circle c1 = new Circle(x, y, radius);
+
+            return c1;
         }
 
-        public static int Test6(string str1, string str2, bool ignoreCase)
+        public static int Test6(string str1, string str2, bool ignoreCase) // Test 6
         {
-            return 0;
+
+            return string.Compare(str1,str2,ignoreCase);
         }
 
-        public static string Test7(sbyte offset, string message)
+        public static string Test7(sbyte offset, string message) // Test 7
         {
-            return null;
+            Codex textCodec = new Codex(offset);
+
+            return textCodec.Encode(message);
         }
 
-        public static string Test8(sbyte offset, string message)
+        public static string Test8(sbyte offset, string message) // Test 8
         {
-            return null;
+            Codex textCodec = new Codex(offset);
+
+            return textCodec.Decode(message);
         }
     }
 }
