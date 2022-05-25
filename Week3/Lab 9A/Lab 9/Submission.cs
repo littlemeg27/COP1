@@ -12,27 +12,70 @@ namespace Lab_9A
 
         public static Student Test1(string last, string first, int idNo)
         {
-            return null;
+            Student student = new Student(last, first, idNo);
+            
+            return student;
         }
 
         public static Student Test2()
         {
-            return null;
+            Student students = new Student();
+
+            return students;
         }
 
         public static bool Test3(Student enrolled)
         {
-            return false;
+            bool enrollmentTest = false;
+
+            for(int i = 0; i < enrollment.Length; i++)
+            {
+                if(enrollment[i] == null)
+                {
+                    enrollment[i] = enrolled;
+                    enrollmentTest = true;
+                    break;
+                }
+            }
+            return enrollmentTest;
         }
 
         public static bool Test4(int idNumber)
         {
-            return false;
+            bool idNumberTest = false;
+
+            for (int i = 0; i < enrollment.Length; i++)
+            {
+                if (enrollment[i] != null && enrollment[i].GetIDNumber() == idNumber)
+                {
+                    enrollment[i] = null;
+                    idNumberTest = true;
+                    break;
+                }
+            }
+            return idNumberTest;
         }
 
         public static Student Test5(int idNumber)
         {
-            return null;
+            Student student = null;
+            int index = 0;
+
+            while(true)
+            {
+                if(index < enrollment.Length)
+                {
+                    Student newStudent = enrollment[index];
+
+                    if ((newStudent == null) || (newStudent.GetIDNumber() != idNumber))
+                    {
+                        index++;
+                        continue;
+                    }
+                    student = newStudent;
+                }
+            }
+            return student;
         }
     }
 }
