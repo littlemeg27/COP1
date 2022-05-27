@@ -59,23 +59,21 @@ namespace Lab_9A
         public static Student Test5(int idNumber)
         {
             Student student = null;
-            int index = 0;
+            Student[] enrollment = Submission.enrollment;
 
-            while(true)
+            for(int i = 0; i < enrollment.Length; i++)
             {
-                if(index < enrollment.Length)
-                {
-                    Student newStudent = enrollment[index];
+                Student newStudent = enrollment[i];
 
-                    if ((newStudent == null) || (newStudent.GetIDNumber() != idNumber))
-                    {
-                        index++;
-                        continue;
-                    }
+                if ((newStudent == null) || (newStudent.GetIDNumber() != idNumber))
+                {
                     student = newStudent;
                 }
+             
             }
             return student;
         }
+
     }
+
 }
