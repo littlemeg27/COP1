@@ -90,7 +90,6 @@ namespace Shop
 
                     // TODO: Call the ShowInventories method and pass in the player's name,
                     //		 the player's inventory and the store's inventory.
-                    
 
                     Console.SetCursorPosition(5, 18);
                     Console.Write("What would you like to do?"

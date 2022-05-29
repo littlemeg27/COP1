@@ -1,20 +1,27 @@
-I:\Code Examples\Shop\Shop\obj\Debug\Shop.csprojAssemblyReference.cache
-I:\Code Examples\Shop\Shop\bin\Debug\Shop.exe.config
-I:\Code Examples\Shop\Shop\bin\Debug\Shop.exe
-I:\Code Examples\Shop\Shop\bin\Debug\Shop.pdb
-I:\Code Examples\Shop\Shop\obj\Debug\Shop.exe
-I:\Code Examples\Shop\Shop\obj\Debug\Shop.pdb
-C:\Users\marty\Documents\PG1\Working\FSO Version\Practicals\Shop\Shop\bin\Debug\Shop.exe.config
-C:\Users\marty\Documents\PG1\Working\FSO Version\Practicals\Shop\Shop\bin\Debug\Shop.exe
-C:\Users\marty\Documents\PG1\Working\FSO Version\Practicals\Shop\Shop\bin\Debug\Shop.pdb
-C:\Users\marty\Documents\PG1\Working\FSO Version\Practicals\Shop\Shop\obj\Debug\Shop.csprojAssemblyReference.cache
-C:\Users\marty\Documents\PG1\Working\FSO Version\Practicals\Shop\Shop\obj\Debug\Shop.csproj.CoreCompileInputs.cache
-C:\Users\marty\Documents\PG1\Working\FSO Version\Practicals\Shop\Shop\obj\Debug\Shop.exe
-C:\Users\marty\Documents\PG1\Working\FSO Version\Practicals\Shop\Shop\obj\Debug\Shop.pdb
-C:\Users\marty\Desktop\FSO Downloads\04 - April Labs\Solutions\Shop\Shop\bin\Debug\Shop.exe.config
-C:\Users\marty\Desktop\FSO Downloads\04 - April Labs\Solutions\Shop\Shop\bin\Debug\Shop.exe
-C:\Users\marty\Desktop\FSO Downloads\04 - April Labs\Solutions\Shop\Shop\bin\Debug\Shop.pdb
-C:\Users\marty\Desktop\FSO Downloads\04 - April Labs\Solutions\Shop\Shop\obj\Debug\Shop.csprojAssemblyReference.cache
-C:\Users\marty\Desktop\FSO Downloads\04 - April Labs\Solutions\Shop\Shop\obj\Debug\Shop.csproj.CoreCompileInputs.cache
-C:\Users\marty\Desktop\FSO Downloads\04 - April Labs\Solutions\Shop\Shop\obj\Debug\Shop.exe
-C:\Users\marty\Desktop\FSO Downloads\04 - April Labs\Solutions\Shop\Shop\obj\Debug\Shop.pdb
+I:/Code Examples/Shop/Shop/obj/Debug/Shop.csprojAssemblyReference.cache
+I:/Code Examples/Shop/Shop/bin/Debug/Shop.exe.config
+I:/Code Examples/Shop/Shop/bin/Debug/Shop.exe
+I:/Code Examples/Shop/Shop/bin/Debug/Shop.pdb
+I:/Code Examples/Shop/Shop/obj/Debug/Shop.exe
+I:/Code Examples/Shop/Shop/obj/Debug/Shop.pdb
+C:/Users/marty/Documents/PG1/Working/FSO Version/Practicals/Shop/Shop/bin/Debug/Shop.exe.config
+C:/Users/marty/Documents/PG1/Working/FSO Version/Practicals/Shop/Shop/bin/Debug/Shop.exe
+C:/Users/marty/Documents/PG1/Working/FSO Version/Practicals/Shop/Shop/bin/Debug/Shop.pdb
+C:/Users/marty/Documents/PG1/Working/FSO Version/Practicals/Shop/Shop/obj/Debug/Shop.csprojAssemblyReference.cache
+C:/Users/marty/Documents/PG1/Working/FSO Version/Practicals/Shop/Shop/obj/Debug/Shop.csproj.CoreCompileInputs.cache
+C:/Users/marty/Documents/PG1/Working/FSO Version/Practicals/Shop/Shop/obj/Debug/Shop.exe
+C:/Users/marty/Documents/PG1/Working/FSO Version/Practicals/Shop/Shop/obj/Debug/Shop.pdb
+C:/Users/marty/Desktop/FSO Downloads/04 - April Labs/Solutions/Shop/Shop/bin/Debug/Shop.exe.config
+C:/Users/marty/Desktop/FSO Downloads/04 - April Labs/Solutions/Shop/Shop/bin/Debug/Shop.exe
+C:/Users/marty/Desktop/FSO Downloads/04 - April Labs/Solutions/Shop/Shop/bin/Debug/Shop.pdb
+C:/Users/marty/Desktop/FSO Downloads/04 - April Labs/Solutions/Shop/Shop/obj/Debug/Shop.csprojAssemblyReference.cache
+C:/Users/marty/Desktop/FSO Downloads/04 - April Labs/Solutions/Shop/Shop/obj/Debug/Shop.csproj.CoreCompileInputs.cache
+C:/Users/marty/Desktop/FSO Downloads/04 - April Labs/Solutions/Shop/Shop/obj/Debug/Shop.exe
+C:/Users/marty/Desktop/FSO Downloads/04 - April Labs/Solutions/Shop/Shop/obj/Debug/Shop.pdb
+/Users/ravenmargret/MobileDevelopment/COP1/Practical/Shop/Shop/bin/Debug/Shop.exe.config
+/Users/ravenmargret/MobileDevelopment/COP1/Practical/Shop/Shop/bin/Debug/Shop.exe
+/Users/ravenmargret/MobileDevelopment/COP1/Practical/Shop/Shop/bin/Debug/Shop.pdb
+/Users/ravenmargret/MobileDevelopment/COP1/Practical/Shop/Shop/obj/Debug/Shop.csproj.AssemblyReference.cache
+/Users/ravenmargret/MobileDevelopment/COP1/Practical/Shop/Shop/obj/Debug/Shop.csproj.CoreCompileInputs.cache
+/Users/ravenmargret/MobileDevelopment/COP1/Practical/Shop/Shop/obj/Debug/Shop.exe
+/Users/ravenmargret/MobileDevelopment/COP1/Practical/Shop/Shop/obj/Debug/Shop.pdb
