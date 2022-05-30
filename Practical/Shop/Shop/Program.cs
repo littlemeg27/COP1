@@ -22,7 +22,7 @@
 //=============================================================================
 
 // TODO: When all work is done in Item.cs and Inventory.cs uncomment the following line.
-// #define INVENTORY
+#define INVENTORY
 
 using System;
 using FSPG;
@@ -33,6 +33,7 @@ namespace Shop
     {
         static void Main(string[] args)
         {
+            string playerName = "";
             /**********************************************************************
              *                                                                    *
              *    Do not remove (or 'comment out') any of the lines that begin    *
@@ -41,30 +42,52 @@ namespace Shop
              **********************************************************************/
 
 #if INVENTORY
-            Item HealthPotion = new Item();
+            Shop HealthPotion = new Shop();
             HealthPotion.SetName("Health Potion");
             HealthPotion.SetCost(10);
-            Item MagicPotion = new Item("Magic Potion", 15);
-            Item IronDagger = new Item("Iron Dagger", 30);
-            Item WoodenClub = new Item("Wooden Club", 20);
-            Item DaedricHelm = new Item("Daedric Helm", 120);
-            Item MageRobe = new Item("Mage Robe", 50);
-            Item AkaviriKatana = new Item("Akaviri Katana", 200);
-            Item WabbaJack = new Item ("Wabbajack",500);
+            Shop MagicPotion = new Shop("Magic Potion", 15);
+            Shop IronDagger = new Shop("Iron Dagger", 30);
+            Shop WoodenClub = new Shop("Wooden Club", 20);
+            Shop DaedricHelm = new Shop("Daedric Helm", 120);
+            Shop MageRobe = new Shop("Mage Robe", 50);
+            Shop AkaviriKatana = new Shop("Akaviri Katana", 200);
+            Shop WabbaJack = new Shop("Wabbajack",500);
 
-            Item[] PlayerStartingItems = { HealthPotion, HealthPotion, MagicPotion, WoodenClub };
+            Shop[] PlayerStartingItems = { HealthPotion, HealthPotion, MagicPotion, WoodenClub };
 
-            Item[] StoreStartingItems = { HealthPotion, MagicPotion, MagicPotion, IronDagger,
+            Shop[] StoreStartingItems = { HealthPotion, MagicPotion, MagicPotion, IronDagger,
                                                DaedricHelm, MageRobe, AkaviriKatana, WabbaJack };
-#endif // INVENTORY   
+            Inventory playerInv = new Inventory();
+            Inventory storeInv = new Inventory();
+
+#endif //INVENTORY   
 
             // TODO: Define an Inventory object for the player,
-            //		 an Inventory object for the store. 
+            //		 an Inventory object for the store.
 
+            if(Console.ReadLine().Length == 0)
+            {
+                playerName = "Butters";
+            }
+
+            playerInv.SetGold(200);
+
+            for(int i = 0; i < PlayerStartingItems.Length; i++)
+            {
+                Shop toAdd = PlayerStartingItems[i];
+                playerInv.AddItem(toAdd);
+            }
 
             // TODO: Ask the user for their name and define a string for the
             //       name. Store their input in the string. If they entered 
             //       an empty string (e.g. "") assign them a default name.
+
+            storeInv.SetGold(350);
+
+            for(int i = 0; i < StoreStartingItems.Length; i++)
+            {
+                storeInv.AddItem(StoreStartingItems[i]);
+            }
 
 
             // TODO: Use the Gold property to give the player inventory 200 Gold.
@@ -87,6 +110,7 @@ namespace Shop
                 do
                 {
                     Console.Clear();
+                    ShowInventories(playerName, playerInv, storeInv);
 
                     // TODO: Call the ShowInventories method and pass in the player's name,
                     //		 the player's inventory and the store's inventory.
@@ -113,7 +137,9 @@ namespace Shop
 
                 // TODO: Call the DoTransaction method and send it the player's name,
                 //		 the player's inventory, the store's inventory and the doBuy variable.
-                
+
+                //ShowInventories(playerName, playerInv, storeInv);
+
             }
 
             Console.Clear();
@@ -160,7 +186,7 @@ namespace Shop
 
             } while (itemName.Length == 0);
 
-            Item itemToBuy = storeInv.GetItem(itemName);
+            Shop itemToBuy = storeInv.GetItem(itemName);
 
             if (null == itemToBuy)
             {
@@ -170,7 +196,7 @@ namespace Shop
                 return;
             }
 
-            if (itemToBuy.GetCost() > playerInv.Gold)
+            if (itemToBuy.GetCost() > playerInv.GetGold())
             {
                 Console.SetCursorPosition(5, 20);
                 Console.Write("You can not afford that item!");
@@ -186,9 +212,8 @@ namespace Shop
                 return;
             }
 
-            playerInv.Gold = playerInv.Gold - itemToBuy.GetCost();
-            storeInv.Gold = storeInv.Gold + itemToBuy.GetCost();
-
+            playerInv.SetGold(playerInv.GetGold() - itemToBuy.GetCost());
+            storeInv.SetGold(storeInv.GetGold() + itemToBuy.GetCost());
             storeInv.RemoveItem(itemName);
         }
 
@@ -206,7 +231,7 @@ namespace Shop
 
             } while (itemName.Length == 0);
 
-            Item itemToSell = playerInv.GetItem(itemName);
+            Shop itemToSell = playerInv.GetItem(itemName);
 
             if (itemToSell == null)
             {
@@ -216,7 +241,7 @@ namespace Shop
                 return;
             }
 
-            if (itemToSell.GetCost() > storeInv.Gold)
+            if (itemToSell.GetCost() > storeInv.GetGold())
             {
                 Console.SetCursorPosition(5, 20);
                 Console.Write("The Store can not afford to buy that item!");
@@ -232,9 +257,8 @@ namespace Shop
                 return;
             }
 
-            storeInv.Gold = storeInv.Gold - itemToSell.GetCost();
-            playerInv.Gold = playerInv.Gold + itemToSell.GetCost();
-
+            storeInv.SetGold(storeInv.GetGold() - itemToSell.GetCost());
+            playerInv.SetGold(playerInv.GetGold() + itemToSell.GetCost());
             playerInv.RemoveItem(itemName);
         }
 #endif // INVENTORY

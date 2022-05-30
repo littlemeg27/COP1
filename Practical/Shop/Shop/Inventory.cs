@@ -26,10 +26,10 @@ namespace Shop
         // TODO: Write a C# property for mGold called Gold (it has to
         //       access/update the mGold member field).
 
-        /*public int GetGold()
+        public int GetGold()
         {
-            theGold = 50; 
-        }*/
+            return theGold; 
+        }
 
         public void SetGold(int gold)
         {
