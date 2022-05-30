@@ -26,14 +26,23 @@ namespace HighScoreTable
             Console.WriteLine("Input count of total scores.");
 
             string size = Console.ReadLine();
+            int success = -1;
+
 
             while (!int.TryParse(size, out int k))
             {
                 Console.WriteLine("Invalid.");
                 size = Console.ReadLine();
+
+                if (success >= 0)
+                {
+                    Console.WriteLine($"Your input: {k}");
+                }
+                else
+                {
+                    Console.WriteLine($"Invalid Input.");
+                }
             }
-
-
 
             // ====> Support error checking (input validation).
             //
@@ -49,6 +58,11 @@ namespace HighScoreTable
             //       You may use Utility.ReadInt() which returns an int
             //       and Utility.IsReadGood() which returns a bool to
             //       indicate if the last read (ReadInt) was successful
+
+            
+
+            
+
 
 
 
@@ -72,7 +86,7 @@ namespace HighScoreTable
 
             for (int j = 0; j < score.Length; j++)
             {
-                score[j] = int.Parse(Console.ReadLine());
+                score[j] = score[j] + int.Parse(Console.ReadLine());
             }
 
             // TODO: Uncomment the following lines
