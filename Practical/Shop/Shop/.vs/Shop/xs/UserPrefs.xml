@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{C88CA797-1589-49AA-B491-115A5E2ED69A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Inventory.cs">
     <Files>
-      <File FileName="Inventory.cs" Line="31" Column="25" />
+      <File FileName="Inventory.cs" Line="116" Column="1" />
       <File FileName="Item.cs" />
       <File FileName="Program.cs" Line="87" Column="16" />
     </Files>
@@ -10,7 +10,7 @@
         <State name="__root__">
           <Node name="Shop" expanded="True">
             <Node name="Shop" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="Inventory.cs" selected="True" />
             </Node>
           </Node>
         </State>
